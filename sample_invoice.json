@@ -1,0 +1,27 @@
+{
+  "invoice_number": "INV-2026-001",
+  "date": "2026-11-07",
+  "due_date": "2026-11-21",
+  "seller": {
+    "name": "Sunrise Stationery & Xerox",
+    "address": "12, Main Road, Near City Bus Stand, Bengaluru 560001",
+    "phone": "+91 98765 43210",
+    "email": "hello@example.com",
+    "gstin": "29ABCDE1234F1Z5"
+  },
+  "customer": {
+    "name": "Greenfield Public School",
+    "address": "45, School Lane, Bengaluru 560002",
+    "phone": "+91 91234 56789"
+  },
+  "items": [
+    { "description": "A4 Notebooks (200 pages)", "quantity": 120, "rate": 45 },
+    { "description": "Ball pens (box of 50)", "quantity": 10, "rate": 220.5 },
+    { "description": "Xerox / printing (per page)", "quantity": 1500, "rate": 0.75 }
+  ],
+  "discount_percent": 5,
+  "gst_percent": 18,
+  "payment_details": "UPI: sunrise@upi\nBank: Example Bank, A/C 0000 0000 0000, IFSC EXMP0000001",
+  "notes": "Thank you for your business! Payment due within 14 days.",
+  "accent_color": "#1d4ed8"
+}
